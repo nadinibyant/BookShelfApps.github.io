@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #F5EFE8;
+}
+
+.kiri{
+    float: left;
+    background-color: #8EA5EB;
+    width: 50%;
+}
+
+.form{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.form h2{
+    color: #FFFFFF;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form p{
+    color: #E3E3E3;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.kotak1{
+    height: 20px;
+    width: 100%;
+    margin-left: -48%;
+    margin-right: -46%;
+    float: left;
+    margin-top: -0.5%;
+}
+
+.check p{
+    color: #FFFFFF;
+}
+
+.submit{
+    background-color: #FFDD00;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20%;
+    border-radius: 10px;
+}
+
+.submit p{
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    padding-top: 2%;
+}
+
+.form2 h2{
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    align-items: center;
+}
+
+.kanan{
+    float: right;
+    padding-top: 2.5%;
+    width: 49.85%;
+    
+}
+
+.rakbuku{
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-right: 5%;
+    overflow: scroll;
+    height: 350px;
+}
+
+.belum, .selesai{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+
+.judulcard{
+    color: #8EA5EB;
+    font-size: 70%;
+}
+
+.belum p, .selesai p{
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.detailbelum, .detailselesai{
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+.detailbelum p, .detailselesai p{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.detailjudul, .detailjudul1{
+    color: #000000;
+    font-size: 140%;
+}
+
+.detailpenulis, .detailtahun, .detailpenulis1, .detailtahun1{
+    color: #8EA5EB;
+    font-size: 70%;
+}
+
+.fitur2{
+    padding-bottom: 5%;
+}
+
+.fitur{
+    float: right;
+    margin-top: -10%;
+    margin-right: 7%;
+}
+
+.pencarian p{
+    color: #777777;
+    margin-left: 7%;
+
+}
+
+.cari input{
+    width: 65%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.buttoncari{
+    width: 20%;
+    height: 50px;
+    background-color: #8EA5EB;
+    float: right;
+    margin-right: 5%;
+    margin-top: -7.5%;
+    border-radius: 10px;
+    
+}
+
+.buttoncari p{
+    color: #FFFFFF;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 7%;
+    margin-right:7%;
+}
+
+.buttonHapusCari {
+    width: 20%;
+    height: 50px;
+    background-color: #F6378F;
+    float: left;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.buttonHapusCari p{
+    color: #FFFFFF;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 5%;
+    margin-right:7%;
+}
+
+
+/* mobile */
+@media only screen and (min-width: 300px)and (max-width: 700px){
+    .kiri{
+        width: 100%;
+    }
+    .kanan{
+        float: left;
+        width: 100%;
+    }
+    .buttoncari{
+        margin-top: -14%;
+        border-radius: 10px;
+        
+    }
+    
+    .buttoncari p{
+        margin-top: 15%;
+    }
+    
+    .buttonHapusCari {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 900px) {
+    .kiri{
+        width: 100%;
+    }
+    .kanan{
+        float: left;
+        width: 100%;
+    }
+    .buttoncari{
+        margin-top: -7%;
+        border-radius: 10px;
+        
+    }
+    .buttoncari p{
+        margin-top: 8%;
+        
+    }
+    
+    .buttonHapusCari {
+        width: 20%;
+    }
+
+    .buttonHapusCari p{
+        font-size: 100%;
+        margin-top: 9%;
+        margin-right:7%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

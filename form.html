@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Buku</title>
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="kiri">
+            <div class="form">
+                <center>
+                    <h2>Form Buku Baru</h2>
+                </center>
+                <br><br><br>
+                <p>Judul Buku (huruf kecil)</p>
+                <br>
+                <input type="text" class="judulbuku">
+                <br><br><br><br><br>
+                <p>Penulis Buku</p>
+                <br>
+                <input type="text" class="penulisbuku">
+                <br><br><br><br><br>
+                <p>Tahun Buku</p>
+                <br>
+                <input type="number" class="tahunbuku">
+                <br><br><br><br><br>
+                <div class="check">
+                    <input type="checkbox" class="kotak1">
+                    <p>Selesai Dibaca</p>
+                </div>
+                <br><br><br>
+                <input class="submit" type="submit" value="Masukan ke Rak Buku">
+                </input>
+            </div>
+        </div>
+        <div class="kanan">
+            <div class="form2">
+                <center>
+                    <h2>List Rak Buku</h2>
+                </center>
+                <div class="rakbuku">
+                    <div class="belum">
+                        <br>
+                        <p class="judulcard">Belum Selesai Dibaca</p>
+                        <br>
+                        <div class="isi1">
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="selesai">
+                        <br>
+                        <p class="judulcard">Selesai Dibaca</p>
+                        <br>
+                        <div class="isi2">
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="pencarian">
+                    <p>Judul Buku (huruf kecil)</p>
+                    <br>
+                    <div class="cari">
+                        <input type="text" class="caribuku">
+                    </div>
+                    <div class="buttoncari">
+                        <center>
+                            <p>Cari</p>
+                        </center>
+                    </div>
+                    <div class="buttonHapusCari">
+                        <center>
+                            <p>Hapus Pencarian</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="assets/js/form2.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

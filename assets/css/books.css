@@ -1,0 +1,205 @@
+body {
+    background-color: #F5EFE8;
+}
+
+header {
+    margin-left: 5%;
+}
+
+header img {
+    width: 10%;
+    float: left;
+    padding-right: 1%;
+}
+
+.judul {
+    font-family: rockwell;
+    width: 30%;
+    padding-top: 3%;
+}
+
+.nav ul {
+    margin-left: 70%;
+    margin-top: -3%;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-right: 20%;
+}
+
+.nav ul li a {
+    color: #000000;
+    opacity: 44%;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 10%;
+}
+
+.gambar {
+    width: 50%;
+    float: right;
+
+}
+
+.teks {
+    width: 50%;
+
+}
+
+.gambar img {
+    margin-left: 20%;
+}
+
+.teks1 {
+    color: #F6378F;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 20%;
+    padding-left: 15%;
+}
+
+.teks2 {
+    color: #000000;
+    opacity: 44%;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20%;
+    padding-left: 15%;
+}
+
+.button {
+    background-color: #8EA5EB;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 7%;
+    color: #FFFFFF;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.button p {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+
+/* mobile */
+@media only screen and (min-width: 300px)and (max-width: 700px) {
+    header img {
+        width: 15%;
+    }
+
+    .gambar {
+        float: left;
+    }
+
+    .nav ul {
+        margin-left: -11%;
+        margin-top: -3%;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        padding-right: 10%;
+    }
+
+    .gambar {
+        width: 100%;
+        float: left;
+
+    }
+
+    .gambar img {
+        margin-left: 15%;
+        width: 80%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+
+    .teks {
+        width: 100%;
+    }
+
+    .teks1 {
+        font-size: 32px;
+        padding-right: 15%;
+        padding-left: 10%;
+    }
+
+    .teks2 {
+        padding-right: 15%;
+        padding-left: 10%;
+    }
+
+    .button {
+        margin-left: 9%;
+        margin-bottom: 10%;
+
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 900px) {
+    header img {
+        width: 10%;
+        float: left;
+        padding-right: 1%;
+    }
+
+    .gambar {
+        float: left;
+    }
+
+    .nav ul {
+        margin-left: 70%;
+        margin-top: -6%;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        padding-right: 20%;
+    }
+
+    .gambar {
+        width: 100%;
+        float: left;
+
+    }
+
+    .gambar img {
+        margin-left: 15%;
+        width: 80%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+
+    .teks {
+        width: 100%;
+    }
+
+    .teks1 {
+        font-size: 32px;
+        padding-right: 15%;
+        padding-left: 10%;
+    }
+
+    .teks2 {
+        padding-right: 15%;
+        padding-left: 10%;
+    }
+
+    .button {
+        margin-left: 9%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+}
