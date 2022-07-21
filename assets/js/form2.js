@@ -81,6 +81,13 @@ function addBook() {
         })
         books.pop();
     } else {
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Buku Berhasil Ditambahkan',
+            showConfirmButton: false,
+            timer: 1500
+        })
         document.dispatchEvent(new Event(RENDER_EVENT));
         saveData();
     }
